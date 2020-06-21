@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/client/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/client/js/index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -218,15 +218,15 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 
 /***/ }),
 
-/***/ "./src/client/index.js":
-/*!*****************************!*\
-  !*** ./src/client/index.js ***!
-  \*****************************/
+/***/ "./src/client/js/index.js":
+/*!********************************!*\
+  !*** ./src/client/js/index.js ***!
+  \********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Index = function Index() {\n  return _react2.default.createElement(\n    \"div\",\n    null,\n    \"Hello React!\"\n  );\n};\n\n_reactDom2.default.render(_react2.default.createElement(Index, null), document.getElementById(\"index\"));\n\n//# sourceURL=webpack:///./src/client/index.js?");
+eval("\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Index = function Index() {\n  return _react2.default.createElement(\n    \"div\",\n    null,\n    \"Hello React!\"\n  );\n};\n\n_reactDom2.default.render(_react2.default.createElement(Index, null), document.getElementById(\"index\"));\n\n//# sourceURL=webpack:///./src/client/js/index.js?");
 
 /***/ })
 
